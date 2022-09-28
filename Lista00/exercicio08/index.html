@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 08</title>
+</head>
+
+<body>
+    <h1 style="display: flex; justify-content: center; font-size:350%">Calculador de altura de prédio</h1>
+    <div class="container">
+        <ul style="font-size: 250%; display: flex; align-items: center; flex-direction: column;" id="list ">
+        </ul>
+    </div>
+    <div style="display: flex; justify-content: space-around">
+        <div style="display: flex; width: 40%">
+            <img style="width: 100%; height: 50%" src="predio.jfif" alt=" " />
+        </div>
+
+        <div style="display: flex; flex-direction: column; margin-bottom: 10%;">
+            <h2>Digite o tamanho da sombra do prédio:</h2>
+            <input style="width: 100%;" class="hPredio" id="hPredio" type="number "
+                placeholder="Digite a altura do tamanho do prédio" />
+            <h2>Digite a sua altura:</h2>
+            <input style="width: 100%;" class="hPessoa" id="hPessoa" type="number " placeholder="Digite a sua altura" />
+            <h2>Digite a altura da sua sombra:</h2>
+            <input style="width: 100%;" class="hPessoaSombra" id="hPessoaSombra" type="number "
+                placeholder="Digite a altura da sua sombra" />
+
+
+            <div style="display:flex; flex-direction: column; font-size:150%">
+                <p id="resultado"></p>
+
+            </div>
+            <button style="  font-size: medium;" class="submit ">Clique para calcular</button>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
+
+
+
+<!-- // Num dia de sol, você deseja medir a altura de um prédio, porém, a trena não é suficientemente longa.
+// Assumindo que seja possível medir sua sombra e a do prédio no chão, e que você lembre da sua altura, faça
+// um algoritmo para ler os dados necessários e calcular a altura do prédio. -->

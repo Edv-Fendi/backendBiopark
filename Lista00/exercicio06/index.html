@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 06</title>
+</head>
+
+<body>
+    <h1 style="display: flex; justify-content: center; font-size:350%">Calculador de litros de Refrigerantes</h1>
+    <div class="container">
+        <ul style="font-size: 250%; display: flex; align-items: center; flex-direction: column;" id="list ">
+        </ul>
+    </div>
+    <div style="display: flex; justify-content: space-around">
+        <div style="display: flex; width: 40%">
+            <img style="width: 100%; height: 100%" src="images.jfif" alt=" " />
+        </div>
+
+        <div style="display: flex; flex-direction: column; margin-bottom: 10%;">
+            <h2>Digite a quantidade de latas compradas:</h2>
+            <input style="width: 100%;" class="lata" id="lata" type="number "
+                placeholder="Digite a quantidade de latas compradas" />
+            <h2>Digite a quantidade de garrafas compradas:</h2>
+            <input style="width: 100%;" class="garrafa" id="garrafa" type="number "
+                placeholder="Digite a quantidade de garrafas compradas" />
+
+            <h2>Digite a quantidade de garrafas pet compradas:</h2>
+            <input style="width: 100%;" class="pet" id="pet" type="number "
+                placeholder="Digite a quantidade de garrafas pet compradas" />
+
+
+            <div style="display:flex; flex-direction: column; font-size:150%">
+                <p id="resultado"></p>
+
+            </div>
+            <button style="  font-size: medium;" class="submit ">Clique para calcular</button>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
+
+<!-- A fábrica de refrigerantes Meia-Cola vende seu produto em três formatos: lata de 350 ml, garrafa de 600 ml e
+garrafa de 2 litros. Se um comerciante compra uma determinada quantidade de cada formato, faça um
+algoritmo para calcular quantos litros de refrigerante ele comprou. -->
