@@ -78,8 +78,15 @@ const jovens = idosos.filter(function(item){
         
     })
 console.log(jovens)}
-    
 document.getElementById("dados").addEventListener("click", exibirDados);
 document.getElementById("vivos").addEventListener("click", exibirVivos);
 document.getElementById("mortos").addEventListener("click", exibirMortos);
 document.getElementById("jovens").addEventListener("click", exibirIdososJovens);
+
+
+
+
+
+
+
+
