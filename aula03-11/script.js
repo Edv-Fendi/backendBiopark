@@ -16,3 +16,16 @@ const mostra = function(){
 
 
 exibe.addEventListener('click', mostra);
+
+const busca = function(){
+
+    fetch("https://viacep.com.br/ws/85904300/json")
+    .then(function(resposta){
+    return resposta.json()
+
+   })
+   .then(function(dados){
+      console.log(dados);
+   })
+
+}
